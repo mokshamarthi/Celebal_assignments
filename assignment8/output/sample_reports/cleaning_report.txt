@@ -1,0 +1,22 @@
+E-Commerce Data Cleaning Report
+========================================
+
+[orders.csv]
+  - Rows with bad DD-MM-YYYY date format fixed: 34
+  - Rows with missing/NULL customer_id: 19
+
+[products.csv]
+  - Product names normalized (trimmed/title-cased): 147
+
+[customers.csv]
+  - customer_ids with invalid emails: 9
+    e.g. [57, 90, 95, 221, 359, 409, 411, 415, 494]
+
+[order_items.csv]
+  - Rows referencing a non-existent order_id: 17
+    example order_ids: [502, 503, 507, 515, 517, 520, 522, 525, 527, 529]
+  - Negative quantity rows (returns): 47
+  - Zero quantity rows: 12
+  - discount_percent > 100 rows: 2
+
+Cleaned files written to data/cleaned/

@@ -1,0 +1,6 @@
+test_name,rows_found,status,note
+orphaned_order_items,17,PASSED,rows dropped by INNER JOIN if not caught
+discount_over_100,2,PASSED,e.g. implied revenue -84.78
+zero_quantity,13,PASSED,"contributes $0 revenue, not purchase or return"
+future_order_date,0,PASSED,checked against 2026-07-19
+db_row_count_match,4,PASSED,all 4 tables matched

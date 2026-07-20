@@ -1,0 +1,22 @@
+
+Selected Period: 2025-01-01 to 2025-03-31
+==================================================
+Total orders     : 54
+Total revenue    : 169708.81
+Unique customers : 51
+
+Top 3 products:
+Product       Revenue
+---------------------
+Office Women  4043.49
+Throw Men     3868.57
+Article Kid   3841.85
+
+Comparison with previous period (2024-10-03 to 2024-12-31):
+Metric            Current    Previous   % Change
+------------------------------------------------
+Orders            54         42         28.57   
+Revenue           169708.81  134612.75  26.07   
+Unique customers  51         39         30.77   
+
+Saved CSV -> /home/claude/ecommerce-analytics-system/scripts/../output/sample_reports/summary_2025-01-01_2025-03-31.csv

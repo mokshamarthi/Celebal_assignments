@@ -1,0 +1,9 @@
+source_file,issue,count
+orders.csv,bad_date_format_fixed,34
+orders.csv,missing_customer_id,19
+products.csv,product_names_normalized,147
+customers.csv,invalid_email_customer_ids,9
+order_items.csv,orphaned_order_id_rows,17
+order_items.csv,negative_quantity_rows,47
+order_items.csv,zero_quantity_rows,12
+order_items.csv,discount_over_100_rows,2

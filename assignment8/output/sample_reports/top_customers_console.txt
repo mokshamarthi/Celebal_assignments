@@ -1,0 +1,16 @@
+
+Top 10 customers (2024-01-01 to 2026-07-19):
+customer_id  customer_name       total_value
+--------------------------------------------
+92           Courtney Velasquez  28125.03   
+252          Jason Gonzalez      22042.24   
+212          Maria Moore         21261.98   
+154          Ashley Yu           21109.06   
+321          Michelle Butler     20152.33   
+354          Ralph Lee           18113.4    
+79           Jeff Hill           17499.28   
+490          Shirley Alvarez     16606.26   
+392          Stacey Stewart      15883.93   
+344          Amy Mccoy           15291.43   
+
+Saved CSV -> /home/claude/ecommerce-analytics-system/scripts/../output/sample_reports/top_customers_2024-01-01_2026-07-19.csv
